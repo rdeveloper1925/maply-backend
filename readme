@@ -1,0 +1,75 @@
+my-express-app/
+├── src/
+│   ├── config/
+│   │   ├── index.ts
+│   │   ├── database.ts
+│   │   ├── redis.ts
+│   │   └── swagger.ts
+│   ├── controllers/
+│   │   ├── auth.controller.ts
+│   │   ├── user.controller.ts
+│   │   └── index.ts
+│   ├── middlewares/
+│   │   ├── auth.middleware.ts
+│   │   ├── error.middleware.ts
+│   │   ├── validation.middleware.ts
+│   │   ├── rateLimiter.middleware.ts
+│   │   └── index.ts
+│   ├── models/
+│   │   ├── user.model.ts
+│   │   └── index.ts
+│   ├── routes/
+│   │   ├── v1/
+│   │   │   ├── auth.routes.ts
+│   │   │   ├── user.routes.ts
+│   │   │   └── index.ts
+│   │   └── index.ts
+│   ├── services/
+│   │   ├── auth.service.ts
+│   │   ├── user.service.ts
+│   │   ├── email.service.ts
+│   │   └── index.ts
+│   ├── repositories/
+│   │   ├── user.repository.ts
+│   │   └── index.ts
+│   ├── dto/
+│   │   ├── auth.dto.ts
+│   │   ├── user.dto.ts
+│   │   └── index.ts
+│   ├── validators/
+│   │   ├── auth.validator.ts
+│   │   ├── user.validator.ts
+│   │   └── index.ts
+│   ├── utils/
+│   │   ├── logger.ts
+│   │   ├── apiResponse.ts
+│   │   ├── apiError.ts
+│   │   └── index.ts
+│   ├── types/
+│   │   ├── express.d.ts
+│   │   └── index.ts
+│   ├── constants/
+│   │   ├── errorCodes.ts
+│   │   ├── statusCodes.ts
+│   │   └── index.ts
+│   ├── app.ts
+│   └── server.ts
+├── tests/
+│   ├── unit/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── integration/
+│   │   └── routes/
+│   └── setup.ts
+├── scripts/
+│   ├── seed.ts
+│   └── migrate.ts
+├── .env.example
+├── .env
+├── .gitignore
+├── .eslintrc.json
+├── .prettierrc
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── README.md
